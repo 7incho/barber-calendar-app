@@ -9,3 +9,7 @@ img {
   height: 64px;
   border-radius: 50%;
 }
+
+#btnSetColor {
+  background-color: red;
+}

@@ -1,5 +1,5 @@
 <section>
-  @if (isLoggedIn) {
+  <!-- @if (isLoggedIn) {
   <p>Bienvenido, {{ username }}</p>
   <img (click)="greet()" src="https://github.com/7incho.png" alt="photo" />
   } @else {
@@ -13,5 +13,8 @@
 
   @if (favGame !== '') {
   <p>Tu juego favorito es {{ favGame }}</p>
-  }
+  } -->
+
+  <div>{{ bgColor[indiceColorActual].rawColor }}</div>
+  <button (click)="setColor()">Cambiar color</button>
 </section>
